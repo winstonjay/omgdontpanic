@@ -1,6 +1,6 @@
 # OMG!!! Don't Panic :scream:
 
-Chrome extension to remind yourself of upcoming project deadlines in a friendly way. Display’s a popup countdown timer to the deadline with some additional optional information.
+Chrome extension to remind yourself of upcoming project deadlines in a friendly way. Display’s a countdown timer to the deadline with some additional optional information.
 
 ![popup](img/popup.png)
 
