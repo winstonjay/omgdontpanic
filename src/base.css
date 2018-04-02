@@ -1,0 +1,22 @@
+/* base.css: stylesheet for both options.html and popup.html */
+*:focus  { outline: none; }
+main     { display: flex; }
+small    { color: #848484; }
+.pannel  { width: 256px; }
+.box     { padding: 8px;width: 280px; }
+#counter { color: #f44336 }
+
+#md-notes > div {
+    background-color: #FFF176;
+    padding: 2px 12px 12px;
+    border-radius: 6px;
+}
+
+#text {
+    height: 256px;
+    width: 256px;
+    border: 1px solid #ccc;
+    resize: none;
+    word-break: break-word;
+    font-size: 13px;
+}

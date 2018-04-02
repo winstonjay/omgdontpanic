@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OMG!!! Don't Panic &#128561 - options</title>
+  <link rel="stylesheet" href="base.css">
+</head>
+<body>
+  <h1>OMG!!! Don't Panic &#128561</h1>
+  <main>
+    <div class='box'>
+      <p>Here are your options:</p>
+      <table width='280px'>
+        <tr>
+          <td><strong>source of doom:</strong></td>
+          <td><input type=text id=title placeholder="What's happening?"></td>
+        </tr>
+        <tr>
+          <td><strong>date:</strong></td>
+          <td><input type=date id=date></td>
+        </tr>
+        <tr>
+          <td>optional options...</td>
+        </tr>
+        <tr>
+          <td><strong>target:</strong></td>
+          <td><input type=number id=target placeholder='eg: 1000'></td>
+        </tr>
+        <tr>
+          <td><strong>units:</strong></td>
+          <td><input type=text id=units placeholder="eg: words"></td>
+        </tr>
+        <tr>
+          <td><strong>show notes:</strong></td>
+          <td><input type=checkbox id=mdOn></td>
+        </tr>
+      </table>
+    </div>
+  <div class='box'>
+    <p>Add notes to the popup:</p>
+    <textarea id='text' class='box'></textarea>
+    <p>Basic
+      <a target='blank'
+         href='https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf'>
+      markdown</a>
+      styling supported.
+  </div>
+  <div class='box'>
+    <p>Preview:</p>
+    <div id='md-notes' class='pannel'></div>
+  </div>
+  </main>
+  <p id='status'></p>
+  <label>
+    <strong>save your options</strong>
+    <button id='save'>Save</button>
+  </label>
+  <script src='mini_md.js'></script>
+  <script src='options.js'></script>
+</body>
+</html>
