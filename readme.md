@@ -15,12 +15,9 @@ Options page displays list of available options. Comes with its own markdown par
 ![popup](img/options.png)
 
 #### Supported markdown syntax
-
-	# h1
-    ## h2
-    ### h3
-    #### h4
-
-    * lists
-
-    [links](link_url)
+* `# h1`
+* `## h2`
+* `### h3`
+* `#### h4`
+* `* lists`
+* `[links](link_url)`

@@ -52,7 +52,7 @@
     omgdpTitle: '...',
     omgdpDate: Date.now(),
     omgdpTarget: "",
-    omgdpUnits: "x",
+    omgdpUnits: "",
     omgdpNotes: "## Hello User!\nSee options to set up the extension.",
     omgdpshowNotes: true,
   }, function(items) {
